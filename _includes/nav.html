@@ -1,14 +1,12 @@
-<nav class="container-fluid">
-  <div class="row">
-
-    <div class="col-sm">
-
+<div class="container-fluid">
+<ul class="nav nav-pills">
   {% for item in site.data.nav %}
-    <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+    <li class="nav-item">
+      <a class="nav-link" href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
       {{ item.name }}
     </a>
+    </li>
   {% endfor %}
-    </div>
-  </div>
-
-</nav>
+</ul>
+</div>
+<br />
