@@ -1,6 +1,11 @@
+---
+layout: page
+title: License
+---
+
 MIT License
 
-Copyright (c) 2019 Rajarshi Bhadra (m45k174)
+Copyright (c) 2019 Rajarshi Bhadra
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
