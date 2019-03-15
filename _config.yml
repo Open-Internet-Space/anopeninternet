@@ -1,0 +1,16 @@
+title: Open Internet Association
+email: admin@anopeninternet.eu.org
+description:
+
+baseurl: ""
+url: "https://www.anopeninternet.eu.org"
+twitter_username: m45k174
+github_username:  m45k174
+
+# Build settings
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
