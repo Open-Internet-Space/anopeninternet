@@ -1,0 +1,14 @@
+<nav class="container-fluid">
+<ul class="nav nav-pills" >
+    <li class="nav-item">
+      <a class="nav-item" href="/"><img src="https://raw.githubusercontent.com/m45k174/anopeninternet/gh-pages/oia.png" alt="OIA" ></a>
+    </li>
+  {% for item in site.data.nav %}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+      {{ item.name }}
+    </a>
+    </li>
+  {% endfor %}
+</ul>
+</nav>
